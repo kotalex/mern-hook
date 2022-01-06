@@ -1,0 +1,9 @@
+@import "~antd/dist/antd.css";
+@import "variables";
+
+@import "layout";
+@import "auth";
+
+h1 {
+  color: $red;
+}

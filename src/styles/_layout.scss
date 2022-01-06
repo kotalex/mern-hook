@@ -1,0 +1,66 @@
+@import "variables";
+@import "colors";
+
+header {
+  height: $header-size !important;
+  padding: 0 1rem;
+  color: $white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: $header-font-size;
+}
+
+footer {
+  background: transparent !important;
+  padding: 1rem !important;
+  height: $footer-size;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  font-weight: 600;
+}
+
+#main-layout {
+  header a {
+    color: $white;
+  }
+
+  section.content-section {
+    height: calc(100vh - #{$header-size});
+  }
+
+  div.ant-layout-sider-trigger {
+    position: relative;
+  }
+
+  li.ant-menu-item {
+    margin-top: 0;
+  }
+}
+
+#main-layout-content {
+  background: $white;
+  padding: 2rem;
+  margin: 0;
+}
+
+#auth-layout {
+  padding: 4rem;
+  width: 32rem;
+  margin: auto;
+}
+
+#sidebar a {
+  color: $white !important;
+}
+
+#loading-spinner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  bottom: 0;
+  margin: auto;
+}

@@ -1,0 +1,14 @@
+#auth-container {
+  form.headless-forms {
+    max-width: 25%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 640px) {
+  #auth-container {
+    form.headless-forms {
+      max-width: 100%;
+    }
+  }
+}
